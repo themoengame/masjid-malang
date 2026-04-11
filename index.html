@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Resmi Masjid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav-wrapper">
+            <img src="" id="logo-masjid" alt="Logo" class="logo">
+            <h1 id="nama-masjid">Memuat...</h1>
+        </div>
+    </nav>
+
+    <div class="marquee-container">
+        <marquee id="running-text">Memuat informasi terbaru...</marquee>
+    </div>
+
+    <header class="hero">
+        <div class="container">
+            <h2 id="motto-masjid">...</h2>
+            <p id="alamat-masjid-hero">...</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section>
+            <h3 class="section-title">Jadwal Sholat & Petugas - Kota Malang</h3>
+            <div class="grid-sholat" id="sholat-list"></div>
+        </section>
+
+        <div class="flex-row">
+            <section class="flex-item">
+                <h3 class="section-title">Laporan Keuangan</h3>
+                <div id="list-keuangan" class="card"></div>
+            </section>
+            <section class="flex-item">
+                <h3 class="section-title">Pengumuman</h3>
+                <div id="list-pengumuman" class="card"></div>
+            </section>
+        </div>
+
+        <section>
+            <h3 class="section-title">Struktur Pengurus</h3>
+            <div class="grid-pengurus" id="list-pengurus"></div>
+        </section>
+
+        <section>
+            <h3 class="section-title">Galeri Kegiatan</h3>
+            <div class="grid-galeri" id="list-galeri"></div>
+        </section>
+
+        <section>
+            <h3 class="section-title">Lokasi Masjid</h3>
+            <div class="map-container">
+                <iframe id="gmap-frame" src="" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3 id="footer-nama-masjid">Nama Masjid</h3>
+                <p id="footer-alamat">Alamat...</p>
+                <p><strong>Email:</strong> <span id="footer-email">...</span></p>
+                <p><strong>WhatsApp:</strong> <a id="footer-wa" href="#" target="_blank">Hubungi Kami</a></p>
+            </div>
+            <div class="footer-sosmed">
+                <h4>Ikuti Kami</h4>
+                <div class="sosmed-links">
+                    <a id="link-ig" href="#" target="_blank">Instagram</a>
+                    <a id="link-fb" href="#" target="_blank">Facebook</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p style="text-align: center;">&copy; 2026 <span id="copyright-nama"></span>. Managed with ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
