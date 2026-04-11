@@ -1,0 +1,34 @@
+:root { --primary: #2e7d32; --accent: #ffc107; --light: #f4f4f4; --dark: #333; }
+body { font-family: 'Segoe UI', sans-serif; margin: 0; background: var(--light); color: var(--dark); line-height: 1.6; }
+.container { width: 90%; max-width: 1100px; margin: auto; padding: 20px 0; }
+
+nav { background: white; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
+.nav-wrapper { display: flex; align-items: center; gap: 15px; padding: 10px 0; }
+.logo { height: 50px; width: 50px; border-radius: 50%; object-fit: cover; }
+
+.marquee-container { background: var(--primary); color: white; padding: 10px 0; font-weight: bold; }
+.hero { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1590076215667-873d96c89bb1?q=80&w=2070') center/cover; color: white; text-align: center; padding: 80px 20px; }
+
+.section-title { border-left: 5px solid var(--accent); padding-left: 15px; margin: 40px 0 20px; color: var(--primary); }
+
+.grid-sholat { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 15px; }
+.sholat-card { background: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-bottom: 4px solid var(--primary); }
+.sholat-card .jam { font-size: 1.8rem; font-weight: bold; color: var(--primary); }
+
+.flex-row { display: flex; gap: 20px; flex-wrap: wrap; }
+.flex-item { flex: 1; min-width: 300px; }
+.card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+
+.grid-pengurus { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px; }
+.card-pengurus { background: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+.img-pengurus { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 10px; border: 2px solid var(--primary); }
+
+.grid-galeri { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; }
+.grid-galeri img { width: 100%; height: 150px; object-fit: cover; border-radius: 10px; }
+
+.map-container { border-radius: 15px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+
+footer { background: #1a1a1a; color: #ccc; padding: 50px 0 20px; }
+.footer-content { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 30px; }
+.footer-info a, .sosmed-links a { color: var(--accent); text-decoration: none; margin-right: 10px; }
+footer hr { border: 0; border-top: 1px solid #333; margin: 30px 0; }
